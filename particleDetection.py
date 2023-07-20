@@ -1,6 +1,5 @@
 import cv2 as cv
 import numpy as np
-
 def frameResize(frame, scale=0.75):
     width       = int(frame.shape[1]*scale)
     height      = int(frame.shape[0]*scale)
